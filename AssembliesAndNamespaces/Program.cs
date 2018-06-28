@@ -21,10 +21,11 @@ namespace HTMLToString
 
             Console.WriteLine(reply);
             //Location of file here
-            Console.WriteLine("Please enter a valid address to save the .txt file such as C:\\Users\\Public\\String.txt");
+            Console.WriteLine("Please enter a valid address to save the .txt file such as C:\\Users\\Public\\String.txt, then press any button to exit");
             string txtDir = Console.ReadLine();
             File.WriteAllText(txtDir, reply);
             Console.ReadLine();
+       
         }
     }
 }

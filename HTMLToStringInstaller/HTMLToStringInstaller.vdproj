@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A24F4546B0059BFDC1AF71FE3595523B"
+        "OwnerKey" = "8:_239D3154F48B4BA0B1132FCE84CA7D00"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_239D3154F48B4BA0B1132FCE84CA7D00"
+        "OwnerKey" = "8:_A24F4546B0059BFDC1AF71FE3595523B"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -61,6 +61,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:FALSE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -77,6 +93,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:FALSE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -213,16 +245,16 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:HTMLToStringInstaller"
-        "ProductCode" = "8:{A2E6C979-486A-4880-BBD1-B1203DB4164A}"
-        "PackageCode" = "8:{92F4E314-C33F-4966-B12C-AB1E1F397DC2}"
+        "ProductCode" = "8:{9F6283DF-D514-4622-AAD2-066D389F3349}"
+        "PackageCode" = "8:{CEAB641C-930F-470D-BDBE-3546A31D34F6}"
         "UpgradeCode" = "8:{7EE34A1A-A0EA-457C-B1D5-6B5460FC7C6A}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Mohammed Bilal Habb"
+        "ProductVersion" = "8:1.0.4"
+        "Manufacturer" = "8:Mohammed Bilal Habib"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:HTMLToStringInstaller"
@@ -777,7 +809,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_239D3154F48B4BA0B1132FCE84CA7D00"
             {
-            "SourcePath" = "8:..\\AssembliesAndNamespaces\\obj\\Debug\\AssembliesAndNamespaces.exe"
+            "SourcePath" = "8:..\\AssembliesAndNamespaces\\obj\\Debug\\HTMLToString.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3B05A2710FD6462C968A8319702F8584"
