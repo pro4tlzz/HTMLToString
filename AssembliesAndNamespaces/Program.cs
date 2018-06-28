@@ -25,7 +25,10 @@ namespace HTMLToString
             string txtDir = Console.ReadLine();
             File.WriteAllText(txtDir, reply);
             Console.ReadLine();
-       
+            //Checks if file exists
+            Console.WriteLine(File.Exists(txtDir) ? "File exists." : "File does not exist.");
+      
+            Console.ReadLine();
         }
     }
 }
