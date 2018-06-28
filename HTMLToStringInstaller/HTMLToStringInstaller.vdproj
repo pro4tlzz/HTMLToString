@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:HTMLToStringInstaller"
+"ProjectName" = "8:HTML To String"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -257,7 +257,7 @@
         "Manufacturer" = "8:Mohammed Bilal Habib"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://github.com/pro4tlzz/HTMLToString"
-        "Title" = "8:HTMLToStringInstaller"
+        "Title" = "8:HTML To String"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Mohammed Bilal Habib"
         "Keywords" = "8:"
@@ -809,7 +809,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_239D3154F48B4BA0B1132FCE84CA7D00"
             {
-            "SourcePath" = "8:..\\AssembliesAndNamespaces\\obj\\Release\\HTMLToString.exe"
+            "SourcePath" = "8:..\\AssembliesAndNamespaces\\obj\\Debug\\HTMLToString.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3B05A2710FD6462C968A8319702F8584"
