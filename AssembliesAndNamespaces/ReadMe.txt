@@ -1,0 +1,1 @@
+﻿Created by Mohammed Bilal Habib - https://github.com/pro4tlzz/HTMLToString
