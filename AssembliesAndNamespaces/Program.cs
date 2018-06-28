@@ -8,8 +8,6 @@ namespace HTMLToString
     {
         static void Main(string[] args)
         {
-
-            
             Console.WriteLine("Enter a Valid Webpage URL such as http://wwww.google.com," +
                 " this tool will download the HTML into a .txt file");
             string webPage = Console.ReadLine();
